@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>打工調查問卷</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+<fieldset class="w3-round">
+
+<h1>大學生打工調查問卷</h1>
+<p>本問卷想了解大學生的打工狀況與工作期待，請依照實際情況填寫。</p>
+
+<nav>
+  <a href="index.html">首頁</a>
+  <a href="aboutme.html">關於我</a>
+  <a href="album.html">相簿</a>
+  <a href="questionnaire.html">問卷表單</a>
+</nav>
+
+<hr>
+
+<form>
+
+<fieldset class="w3-round">
+<legend><h3>1.目前是否有在打工？</h3></legend>
+<p>請選擇是或否。</p>
+<input class="w3-check" type="checkbox" name="working" value="是"> 是<br>
+<input class="w3-check" type="checkbox" name="working" value="否"> 否
+</fieldset>
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>2.你打工的主要原因是什麼？</h3></legend>
+<p>請選擇一個答案。</p>
+<input class="w3-radio" type="radio" name="reason" value="生活費"> 賺取生活費<br>
+<input class="w3-radio" type="radio" name="reason" value="存款"> 增加存款<br>
+<input class="w3-radio" type="radio" name="reason" value="經驗"> 累積工作經驗<br>
+<input class="w3-radio" type="radio" name="reason" value="技能"> 學習新技能<br>
+<input class="w3-radio" type="radio" name="reason" value="其他"> 其他
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>3.你一週大約打工幾天？</h3></legend>
+<p>請選擇一個答案。</p>
+<select class="w3-select w3-border w3-round" name="days">
+<option value="">請選擇</option>
+<option value="1天">1天</option>
+<option value="2天">2天</option>
+<option value="3天">3天</option>
+<option value="4天">4天</option>
+<option value="5天以上">5天以上</option>
+</select>
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>4.選擇打工時，你最重視哪些條件？</h3></legend>
+<p>可以選擇多個答案。</p>
+<input class="w3-check" type="checkbox" name="condition" value="薪水"> 薪水高<br>
+<input class="w3-check" type="checkbox" name="condition" value="排班"> 排班彈性<br>
+<input class="w3-check" type="checkbox" name="condition" value="距離"> 離家近<br>
+<input class="w3-check" type="checkbox" name="condition" value="氣氛"> 工作氣氛好<br>
+<input class="w3-check" type="checkbox" name="condition" value="學習"> 能學到東西
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>5.你比較方便的打工時段有哪些？</h3></legend>
+<p>可按住 Ctrl 選擇多個時段。</p>
+<select class="w3-select w3-border w3-round" name="time" multiple size="5">
+<option value="平日早上">平日早上</option>
+<option value="平日下午">平日下午</option>
+<option value="平日晚上">平日晚上</option>
+<option value="假日白天">假日白天</option>
+<option value="假日晚上">假日晚上</option>
+</select>
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>6.你希望從事哪一類型的工作？</h3></legend>
+<p>請輸入你有興趣的工作類型。</p>
+<input class="w3-input w3-border w3-round" type="text" name="job">
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>7.你理想的打工時薪是多少？</h3></legend>
+<p>請輸入數字。</p>
+<input class="w3-input w3-border w3-round" type="number" name="salary">
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>8.你第一次打工的日期？</h3></legend>
+<p>請選擇日期。</p>
+<input class="w3-input w3-border w3-round" type="date" name="date">
+</fieldset>
+
+<br>
+
+<fieldset class="w3-round">
+<legend><h3>9.你對大學生打工有什麼看法或期待？</h3></legend>
+<p>請分享你的想法。</p>
+<textarea class="w3-input w3-border w3-round" name="opinion" rows="3" cols="40"></textarea>
+</fieldset>
+
+<br>
+
+<button class="w3-button w3-light-grey w3-round" type="submit">送出</button>
+<button class="w3-button w3-light-grey w3-round" type="reset">重設</button>
+
+</form>
+
+</fieldset>
+
+</body>
+</html>
